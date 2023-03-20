@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JS Form</title>
+    <link rel="stylesheet" href="JS Form.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@700&family=Tilt+Neon&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+
+
+    <div id="container">
+        <div id="childcontainer">
+            <h1 id="heading">Registration Form</h1>
+            <form onsubmit="submitHandler(event)">
+                <input type="text" name="first name" placeholder="Your First Name" id="fname" required> <br>
+                <input type="text" name="lasr name" placeholder="Your Last Name" id="lname" required> <br>
+                <input type="email" name="email" placeholder="Your Email" id="email" required> <br>
+                <input type="password" name="password" placeholder="Your Password" id="pswrd" required> <br>
+                <input type="password" name="confirm password" placeholder="Confirm Password" id="cnfrm" required> <br>
+                <p id="msg">Password and Again Password doesn't match</p>
+                <p id="msg2">Password length must be 8 or greater</p>
+                <button name="sign up" id="btn">Sign Up</button>
+            </form>
+        </div>
+    </div>
+
+
+
+
+
+
+
+
+
+
+    <script src="JS Form.js"></script>
+</body>
+
+</html>
